@@ -1,0 +1,29 @@
+{
+  "name": "sass-example",
+  "version": "0.0.0",
+  "description": "compile sass-file",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "keywords": [
+    "compile",
+    "sass"
+  ],
+  "author": "maksim zhuchkov",
+  "license": "gnu",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {}
+}

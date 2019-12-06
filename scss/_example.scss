@@ -1,0 +1,26 @@
+$mainFontSize: 16px;
+$mainBg: #3bbfce;
+$padding: 8em;
+$margin: 1.5em;
+
+html,
+body {
+  font: #{$mainFontSize}/120% Tahoma, "Geneva CY", sans-serif;
+}
+#main {
+  background-color: $mainBg;
+}
+#wrapper {
+  padding: 50px $padding/2;
+  color : darken($mainBg, 30%);
+}
+
+h1 {
+  margin: 0 0 1em;
+  font-size: 1.5em;
+  line-height: 120%;
+}
+
+p {
+  margin: $margin 0;
+}
